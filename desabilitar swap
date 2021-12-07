@@ -1,0 +1,9 @@
+desabilitar memoria swap
+
+swapoff -a
+
+vim /etc/fstab
+"excluir segunda linha"
+#ou comentar#
+
+htop " verificar"
