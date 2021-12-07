@@ -1,0 +1,5 @@
+exemplos 
+
+kubectl get namespaces  "defaut"
+
+kubectl apply -f nginx.yaml 

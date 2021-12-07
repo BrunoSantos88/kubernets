@@ -1,0 +1,4 @@
+criando pods via arquivo yaml
+
+kubectl create -f pod.yaml
+kubectl apply -f pod.yaml

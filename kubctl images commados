@@ -1,0 +1,22 @@
+Exemplos
+
+kubectl run nginx --image=nginx --port=80
+
+resposta:
+deployment "nginx" created
+
+kubectl get deployments 
+
+kubectl describe deployment nginx "verifica os serviçoes"
+
+kubectl delete svc "pod"  "deleta pod em serviço"
+
+kubectl delete deployment nginx "deleta imagem do pod"
+
+kubectl delete service " deleta o pod wem serviço"
+
+
+kubectl get - listar recursos
+kubectl describe - mostrar informações detalhadas sobre um recurso
+kubectl logs - mostrar os logs de um container em um Pod
+kubectl exec - executar um comando em um contêiner em um Pod

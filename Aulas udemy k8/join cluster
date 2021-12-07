@@ -1,0 +1,4 @@
+join cluster kubernets
+
+
+kubeadm token create --print-join-command

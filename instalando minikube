@@ -1,0 +1,12 @@
+
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube_1.6.2.deb \
+>  && sudo dpkg -i minikube_1.6.2.deb
+
+minikube start
+
+minikube start --driver=docker
+
+
+
+"usar: para força o driver docker"
+minikube start --force --driver=docker  

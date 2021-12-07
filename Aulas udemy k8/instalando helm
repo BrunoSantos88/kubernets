@@ -1,0 +1,5 @@
+instalando helm
+
+
+
+sudo snap install helm --classic

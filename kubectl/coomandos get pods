@@ -1,0 +1,5 @@
+exemplos 
+
+kubectl get pod -n kube-system  "verificar o sistemas"
+
+kubectl get pod -o wide " verifica cluester e pod"
